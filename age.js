@@ -1,0 +1,11 @@
+var floatAge, floatDays, intWeeks, floatMonths, intFornights;
+     floatAge = parseFloat(prompt("Enter age")).toFixed(2);
+     floatDays = parseFloat(floatAge*365.25).toFixed(2);
+     floatMonths = parseFloat(floatAge*12).toFixed(2);
+     intWeeks = parseFloat(floatDays/7).toFixed(2);
+     intFortnights = parseFloat(floatDays/14).toFixed(2);
+     alert("Your age is = " + floatAge + "years old");
+     alert("Your age is = " + floatDays + "days");
+     alert("Your age is = " + floatMonths + "months");
+     alert("Your age is = " + intWeeks + "weeks");
+     alert("Your age is = " + intFortnights + "fortnights");
